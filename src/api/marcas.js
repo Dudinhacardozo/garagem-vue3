@@ -1,5 +1,4 @@
 import axios from "axios";
-
 export default class MarcasApi {
   async buscarTodasAsMarcas() {
     const { data } = await axios.get("/marcas/");

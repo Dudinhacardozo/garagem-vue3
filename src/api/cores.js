@@ -1,5 +1,4 @@
 import axios from "axios";
-
 export default class CoresApi {
   async buscarTodasAsCores() {
     const { data } = await axios.get("/cores/");
